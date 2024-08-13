@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="whole">
+        <header>
+            <div class="header_div">
+                <div class="header_inner">
+                    <button onclick="senderSelector()" class="senter_field">
+                        <span id="senter_def">Senters address</span>
+                    </button>
+                    <button onclick="sentFunction()" class="sent_Field">
+                        <span id="sent_def">sent</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="keyboard">
+                <div class="keyboard_inner">
+                    <div class="keyboard_char">
+                        <div class="char_lines char_line1">
+                            <button onclick="wordKey(this)" class="char">q</button>
+                            <button onclick="wordKey(this)" class="char">w</button>
+                            <button onclick="wordKey(this)" class="char">e</button>
+                            <button onclick="wordKey(this)" class="char">r</button>
+                            <button onclick="wordKey(this)" class="char">t</button>
+                            <button onclick="wordKey(this)" class="char">y</button>
+                            <button onclick="wordKey(this)" class="char">u</button>
+                            <button onclick="wordKey(this)" class="char">i</button>
+                            <button onclick="wordKey(this)" class="char">o</button>
+                            <button onclick="wordKey(this)" class="char">p</button>
+                        </div>
+                        <div class="char_lines char_line2">
+                            <button onclick="wordKey(this)" class="char">a</button>
+                            <button onclick="wordKey(this)" class="char">s</button>
+                            <button onclick="wordKey(this)" class="char">d</button>
+                            <button onclick="wordKey(this)" class="char">f</button>
+                            <button onclick="wordKey(this)" class="char">g</button>
+                            <button onclick="wordKey(this)" class="char">h</button>
+                            <button onclick="wordKey(this)" class="char">j</button>
+                            <button onclick="wordKey(this)" class="char">k</button>
+                            <button onclick="wordKey(this)" class="char">l</button>
+                        </div>
+                        <div class="char_lines char_line3">
+                            <button onclick="wordKey(this)" class="char" id="uppercasebutton"><img id="uppercase" src="img/upperC.svg" alt=""></button>
+                            <button onclick="wordKey(this)" class="char">z</button>
+                            <button onclick="wordKey(this)" class="char">x</button>
+                            <button onclick="wordKey(this)" class="char">c</button>
+                            <button onclick="wordKey(this)" class="char">v</button>
+                            <button onclick="wordKey(this)" class="char">b</button>
+                            <button onclick="wordKey(this)" class="char">n</button>
+                            <button onclick="wordKey(this)" class="char">m</button>
+                            <button onclick="wordKey(this)" class="char"><img id="backspace" src="img/backspace.webp" alt=""></button>
+                        </div>
+                        <div class="char_lines char_line4">
+                            <button onclick="wordKey(this)" class="char">?/</button>
+                            <button onclick="wordKey(this)" class="char">,</button>
+                            <button onclick="wordKey(this)" class="char">space</button>
+                            <button onclick="wordKey(this)" class="char">.</button>
+                            <button onclick="wordKey(this)" class="char" id="gmail_special">@gmail.com</button>
+                            <button onclick="wordKey(this)" class="char"><img id="enterkey" src="img/enter.png" alt=""> </button>
+                        </div>
+                    </div>
+                    <div class="keyboard_num">
+                        <div class="num_lines">
+                            <button onclick="wordKey(this)" class="num">1</button>
+                            <button onclick="wordKey(this)" class="num">2</button>
+                            <button onclick="wordKey(this)" class="num">3</button>
+                        </div>
+                        <div class="num_lines">
+                            <button onclick="wordKey(this)" class="num">4</button>
+                            <button onclick="wordKey(this)" class="num">5</button>
+                            <button onclick="wordKey(this)" class="num">6</button>
+                        </div>
+                        <div class="num_lines">
+                            <button onclick="wordKey(this)" class="num">7</button>
+                            <button onclick="wordKey(this)" class="num">8</button>
+                            <button onclick="wordKey(this)" class="num">9</button>
+                        </div>
+                        <div class="num_lines">
+                            <button onclick="wordKey(this)" class="num">*</button>
+                            <button onclick="wordKey(this)" class="num">0</button>
+                            <button onclick="wordKey(this)" class="num">#</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_div">
+
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
